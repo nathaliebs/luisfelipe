@@ -33,7 +33,7 @@ const useStyles = makeStyles({
         position: 'absolute',
         top: '20%',
     }
-});
+})
 
 function SideMenu(){
     const classes = useStyles()
