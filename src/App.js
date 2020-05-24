@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Index from './Views/Index';
+import SideMenu from './Components/SideMenu';
 
 function App() {
   return (
-    <Index />
+    <SideMenu />
   );
 }
 
