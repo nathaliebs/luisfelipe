@@ -30,7 +30,6 @@ const useStyles = makeStyles({
     icon: {
         height: '30px',
         left: '20%',
-        position: 'absolute',
         top: '20%',
     }
 })
@@ -42,32 +41,32 @@ function SideMenu(){
         <> 
         <BrowserRouter>
             <MenuList className={classes.root}>
-            <MenuItem className={classes.iconBG}>
-                <Link to="/about">
-                    <img src={ IconAbout } alt="Link Sobre" className={classes.icon} />
+                <Link to="/sobre">
+                    <MenuItem className={classes.iconBG}>
+                        <img src={ IconAbout } alt="Link Sobre" className={classes.icon} />
+                    </MenuItem>
                 </Link>
-            </MenuItem>
-            <MenuItem className={classes.iconBG}>
                 <Link to="/luiscoin">
-                    <img src={ IconMoney } alt="Link Luiscoin" className={classes.icon} />
+                    <MenuItem className={classes.iconBG}>
+                        <img src={ IconMoney } alt="Link Luiscoin" className={classes.icon} />
+                    </MenuItem>
                 </Link>
-            </MenuItem>
-            <MenuItem className={classes.iconBG}>
-                <Link to="/countries">
-                    <img src={ IconCountry } alt="Link países salvos" className={classes.icon} />
+                <Link to="/paises-salvos">
+                    <MenuItem className={classes.iconBG}>
+                        <img src={ IconCountry } alt="Link países salvos" className={classes.icon} />
+                    </MenuItem>
                 </Link>
-            </MenuItem>
-            <MenuItem className={classes.iconBG}>
-                <Link to="/changed-lifes">
-                    <img src={ IconPerson } alt="Link depoimentos" className={classes.icon} />
+                <Link to="/vidas-mudadas">
+                    <MenuItem className={classes.iconBG}>
+                            <img src={ IconPerson } alt="Link depoimentos" className={classes.icon} />
+                    </MenuItem>
                 </Link>
-            </MenuItem>
             </MenuList>
     
-            <Route path="/about" component={ AboutLuis } />
+            <Route path="/sobre" component={ AboutLuis } />
             <Route path="/luiscoin" component={ LuisCoin } />
-            <Route path="/countries" component={ LuisCountries } />
-            <Route path="/changed-lifes" component={ ChangedLifes } />
+            <Route path="/paises-salvos" component={ LuisCountries } />
+            <Route path="/vidas-mudadas" component={ ChangedLifes } />
         </BrowserRouter>
         </>
     )
