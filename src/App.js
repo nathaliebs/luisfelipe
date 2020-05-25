@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
-import Index from './Views/Index';
+import SideMenu from './Components/SideMenu'
+import NavBar from './Components/NavBar'
 
 function App() {
   return (
-    <Index />
+    <>
+      <NavBar />
+      <SideMenu />
+    </>
   );
 }
 
