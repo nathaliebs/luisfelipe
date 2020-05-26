@@ -1,0 +1,40 @@
+.background {
+    width: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 25% 0 0 50%;
+}
+
+.luis {
+    position: absolute;
+    width: 43%;
+    top: 8%;
+    right: 16%;
+    transition: 0.2s;
+}
+
+.luis:hover {
+    width: 44%;
+    top: 7%;
+    right: 15%;
+    transition: 0.2s;
+}
+
+.name {
+    position: absolute;
+    top: 28%;
+    left: 25%;
+    text-align: end;
+    line-height: 187px;
+}
+
+.first-name {
+    font-family: Raleway-ExtraLight;
+    font-size: 300px;
+    color: #00A3FF;
+}
+
+.last-name {
+    font-family: Raleway-Regular;
+    font-size: 170px;
+    color: #00EC5E;
+}
