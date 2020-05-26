@@ -1,0 +1,28 @@
+.lcoin-content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 25% 0 0 50%;
+    text-align: center;
+    width: max-content;
+}
+
+.lcoin-content .title {
+    font-size: 70px;
+    font-family: Raleway-Regular;
+}
+
+.lcoin-content .title strong {
+    color: #00A3FF;
+}
+
+.lcoin-content .dolars {
+    font-size: 80px;
+}
+
+.lcoin-content .alert {
+    font-size: 40px;
+}
+
+.lcoin-content p {
+    margin: 30px 0;
+}
