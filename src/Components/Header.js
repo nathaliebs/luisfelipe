@@ -25,7 +25,7 @@ const useStyles = makeStyles({
     }
 })
 
-function NavBar() {
+function Header() {
     const classes = useStyles()
 
     return (
@@ -42,4 +42,4 @@ function NavBar() {
     )
 }
 
-export default NavBar
+export default Header
