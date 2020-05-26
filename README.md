@@ -13,8 +13,7 @@ As informações contidas na aplicação tem caráter de entreternimento e não 
 ## Tecnologias 🤖 
  - ReactJS;
  - Material UI;
- 
-[**Protótipo no Figma**](https://www.figma.com/file/uhZ5iXpacpX5xACwahq6Z8/F%C3%A3s-do-Luis?node-id=24%3A1 "Projeto no Figma")
+ - Figma ([Protótipo](https://www.figma.com/file/uhZ5iXpacpX5xACwahq6Z8/F%C3%A3s-do-Luis?node-id=24%3A1 "Projeto no Figma")).
  
 **Rodando o projeto localmente:**
   - Clonar o repositório;
