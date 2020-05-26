@@ -31,12 +31,6 @@ function SideMenu(){
                         <p>Países salvos pelo Luis</p>
                     </MenuItem>
                 </Link>
-                <Link to="/vidas-mudadas">
-                    <MenuItem>
-                        <img src={ IconPerson } alt="Link depoimentos" />
-                        <p>Pessoas salvas pelo Luis</p>
-                    </MenuItem>
-                </Link>
             </MenuList>
         </>
     )
