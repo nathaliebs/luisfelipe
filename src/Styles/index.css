@@ -33,3 +33,14 @@ a {
     text-decoration: none;
     font-family: Raleway-Medium;
 }
+
+.disclaimer {
+	position: fixed;
+	z-index: 19;
+	bottom: 30px;
+	left: 40px;
+	font-size: 12px;
+	font-family: Raleway-Medium;
+	color: #4D4D4D;
+	text-shadow: #FFFFFF 0px -1px 1px;
+}

@@ -3,6 +3,11 @@
     padding: 50% 0 0 100%;
     width: max-content;
 }
+@media(max-width: 1400px) {
+    .content {
+        padding: 60% 0 0 100%;
+    }
+}
 
 .title {
     font-size: 40px;
@@ -24,6 +29,11 @@
 .countries div div img {
     padding: 20px;
     margin: 20px 0;
+}
+@media(max-width: 1400px) {
+    .countries div div img {
+        margin: 0;
+    }
 }
 
 .countries div div p {

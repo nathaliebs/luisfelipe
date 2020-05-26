@@ -25,6 +25,7 @@
     font-size: 16px;
     padding-left: 20px;
     color: #4D4D4D;
+    text-shadow: #FFFFFF 0px -1px 1px;
 }
 
 .header nav a:hover {

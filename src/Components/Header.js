@@ -13,7 +13,7 @@ function Header() {
         <>
             <div className="header">
                 <img src={Logo} alt="Logo" onClick={handleLogoClick} />
-                <nav>
+                <nav id="navId">
                     <Link to="/">Explicando o site</Link>
                     <Link to="/">Quem somos?</Link>
                     <Link to="/">Contato</Link>

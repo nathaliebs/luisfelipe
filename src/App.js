@@ -15,6 +15,7 @@ function App() {
             <BrowserRouter>
                 <Header />
                 <SideMenu />
+                <p id="disclaimerId" className="disclaimer">*Este site não possui compromisso algum com fatos e se trata de um trabalho acadêmico</p>
                 <Route exact path="/" component={ Home } />
                 <Route exact path="/sobre" component={ AboutLuis } />
                 <Route exact path="/luiscoin" component={ LuisCoin } />
