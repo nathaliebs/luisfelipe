@@ -1,6 +1,6 @@
 ## Fãs do Luis 👨🏽‍💻💙
 
-Devido a pandemia do Coronavirus, as aulas EAD se tornaram uma realidade para os alunos do mundo todo. Em todas as aulas online, é notável a falta que sentimos de estar em sala de aula, interagindo pessoalmente com colegas de sala e nossos professores. Pensando nisso, eu (Nathalie) e meu colega de sala ([Arthur Bruno](https://github.com/arthurBruno "GitHub do Arthur")) decidimos criar uma aplicação que tivesse como objetivo exaltar um de nossos professores, em agradecimento por todo o trabalho e preocupação que têm tido em nos trazer o melhor conteúdo mesmo com as dificuldades que enfrentamos. 
+Devido a pandemia do Coronavirus, as aulas EAD se tornaram uma realidade para os alunos do mundo todo. Em todas as aulas online, é notável a falta que sentimos de estar em sala de aula, interagindo pessoalmente com colegas de sala e nossos professores. Pensando nisso, eu (Nathalie) e meu colega de sala ([Arthur Bruno](https://github.com/arthurBruno "GitHub do Arthur")) decidimos criar uma aplicação que tivesse como objetivo exaltar um de nossos professores, em agradecimento por todo o trabalho e preocupação que têm tido em nos trazer o melhor conteúdo mesmo com as dificuldades que enfrentamos.
 
 Aqui fica o nosso muito obrigado a todos os profissionais da educação!
 
