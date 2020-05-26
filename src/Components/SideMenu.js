@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { MenuList, MenuItem } from '@material-ui/core'
 
 import '../Styles/side-menu.css'
@@ -8,16 +8,10 @@ import IconMoney from '../Assets/icon-money.png'
 import IconCountry from '../Assets/icon-country.png'
 import IconPerson from '../Assets/icon-person.png'
 
-import Home from '../Views/Home'
-import LuisCoin from '../Views/LuisCoin'
-import LuisCountries from '../Views/LuisCountries'
-import ChangedLifes from '../Views/LifesLuisChanged'
-import AboutLuis from '../Views/AboutLuis'
 
 function SideMenu(){
     return (
         <>
-        <BrowserRouter>
             <MenuList className="side-menu">
                 <Link to="/sobre">
                     <MenuItem>
@@ -44,13 +38,6 @@ function SideMenu(){
                     </MenuItem>
                 </Link>
             </MenuList>
-
-            <Route path="/" component={ Home } />
-            <Route path="/sobre" component={ AboutLuis } />
-            <Route path="/luiscoin" component={ LuisCoin } />
-            <Route path="/paises-salvos" component={ LuisCountries } />
-            <Route path="/vidas-mudadas" component={ ChangedLifes } />
-        </BrowserRouter>
         </>
     )
 }
