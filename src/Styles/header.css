@@ -1,6 +1,9 @@
 .header {
+    margin: 10px 40px;
     height: 72px;
-    width: 100%;
+    width: 93%;
+    position: fixed;
+    z-index: 20;
     background-color: transparent;
     display: grid;
     grid-template-columns: 60px auto;
@@ -9,6 +12,7 @@
 
 .header img {
     color: #4D4D4D;
+    cursor: pointer;
 }
 
 .header nav {

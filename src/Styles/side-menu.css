@@ -1,7 +1,9 @@
 .side-menu {
     position: fixed !important;
+    z-index: 20;
     top: 50%;
     transform: translateY(-50%);
+    margin-left: 40px !important;
 }
 
 .side-menu a li {
