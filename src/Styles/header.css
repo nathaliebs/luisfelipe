@@ -1,0 +1,28 @@
+.header {
+    height: 72px;
+    width: 100%;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 60px auto;
+    align-items: center;
+}
+
+.header img {
+    color: #4D4D4D;
+}
+
+.header nav {
+    text-align: end;
+}
+
+.header nav a {
+    text-decoration: none;
+    margin-top: 22px; /* valor do marginTop no figma (62px) - marginTop global(40px) */
+    font-size: 16px;
+    padding-left: 20px;
+    color: #4D4D4D;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
