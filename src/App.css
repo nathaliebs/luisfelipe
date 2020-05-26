@@ -1,3 +1,7 @@
-.App {
+body {
+  overflow: hidden;
+}
+
+.App{
   margin: '40px 70px 40px 70px';
 }
