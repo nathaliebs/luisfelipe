@@ -25,10 +25,11 @@ const useStyles = makeStyles({
         height: '50px',
         margin: "10px 0 10px 0",
         position: 'relative',
-        width: '50px',       
+        width: '50px',
     },
     icon: {
         height: '30px',
+        position: 'absolute',
         left: '20%',
         top: '20%',
     }
@@ -38,7 +39,7 @@ function SideMenu(){
     const classes = useStyles()
 
     return (
-        <> 
+        <>
         <BrowserRouter>
             <MenuList className={classes.root}>
                 <Link to="/sobre">
@@ -62,7 +63,7 @@ function SideMenu(){
                     </MenuItem>
                 </Link>
             </MenuList>
-    
+
             <Route path="/sobre" component={ AboutLuis } />
             <Route path="/luiscoin" component={ LuisCoin } />
             <Route path="/paises-salvos" component={ LuisCountries } />
