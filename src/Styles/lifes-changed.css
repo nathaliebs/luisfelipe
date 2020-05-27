@@ -1,0 +1,91 @@
+.people-content {
+    transform: translate(-50%, -50%);
+    padding: 900px 0 0 100%;
+    width: max-content;
+}
+@media(max-width: 1400px) {
+    .people-content {
+        padding: 700px 0 0 100%;
+    }
+}
+
+@media(max-width: 1400px) {
+    .title {
+        font-size: 35px
+    }
+}
+
+.person-name {
+    font-size: 20px !important;
+}
+
+.testimony {
+    font-size: 18px !important;
+    font-family: Raleway-ExtraLight !important;
+}
+@media(max-width: 1400px) {
+    .person-name {
+        font-size: 18px !important;
+    }
+
+    .testimony {
+        font-size: 16px !important;
+        font-family: Raleway-ExtraLight !important;
+    }
+}
+
+.people {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 40px;
+}
+
+.people div div img {
+    width: 150px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+
+.people .left {
+    border-right: 1px solid #C4C4C4;
+    padding-right: 60px;
+}
+
+.people .right {
+    padding-left: 60px;
+}
+
+@media(max-width: 1400px) {
+    .people .left {
+        padding-right: 20px;
+    }
+
+    .people .right {
+        padding-left: 20px;
+    }
+}
+
+.people .left div {
+    display: grid;
+    grid-template-columns: 500px auto;
+    align-items: center;
+    text-align: right;
+}
+
+.people .right div {
+    display: grid;
+    grid-template-columns: auto 500px;
+    align-items: center;
+    text-align: left
+}
+
+@media(max-width: 1400px) {
+    .people .left div {
+        grid-template-columns: 400px auto;
+    }
+
+    .people .right div {
+        grid-template-columns: auto 400px;
+    }
+}
