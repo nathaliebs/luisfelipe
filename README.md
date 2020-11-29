@@ -17,6 +17,6 @@ As informações contidas na aplicação tem caráter de entreternimento e não 
  
 **Rodando o projeto localmente:**
   - Clonar o repositório;
-  - Dentro da pasta do projeto, `npm install` para instalar as dependencias do projeto;
-  - E depois `npm start` para subir o projeto localmente;
+  - Dentro da pasta do projeto, `yarn install` para instalar as dependencias do projeto;
+  - E depois `yarn start` para subir o projeto localmente;
   - Pronto! Já pode acessar seu localhost e a aplicação estará disponível.
